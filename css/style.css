@@ -1,0 +1,51 @@
+/* do not change this file. */
+
+/* basic typography */
+html {
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+
+/* centers body content */
+body {
+  max-width: 900px;
+  margin: 0 auto 0 auto;
+}
+
+/* removes gap on left side of navigation menus */
+nav ul {
+  padding: 0;
+}
+
+/* ensures that headings are unaffected by their parent's grid layout */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  grid-column: 1/-1;
+}
+
+/* heading sizes */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+/* set up grid for elements with "grid" class */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* ensure images fit inside their grid cell */
+.grid img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
