@@ -67,3 +67,4 @@ let data = [
 
 // TODO ########## export the above array as the default export
 
+export default data;
