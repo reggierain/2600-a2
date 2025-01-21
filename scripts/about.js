@@ -1,5 +1,5 @@
 // TODO ########## import the functions createHeading, createNavigation, and createGrid from dom.js. You don't need to import the data from data.js, as it's not used on this page.
-
+import { createHeading, createNavigation, createGrid } from "./modules/dom";
 // TODO ########## use createHeading to create both h1 and h2 headings.
 
 // TODO ########## create navigation links in the 'primary-nav' area to link back to home page of this site and to Langara home page

@@ -1,7 +1,7 @@
 import data from './modules/data.js';
 
 // TODO ########## import the functions createHeading, createNavigation, and createGrid from dom.js
-
+import { createHeading, createNavigation, createGrid } from './modules/dom.js';
 // createHeading(1, "Influential Figures in Computer Technology", "header");
 
 // TODO ########## use createHeading to create an h2 heading in the <main> tag with text 'Full List of Figures'
