@@ -22,7 +22,7 @@ const buildCell = cellData => {
     const container = document.createElement("div");
     container.setAttribute("id", id);
 
-    const nameHeading = document.createElement("h2");
+    const nameHeading = document.createElement("h3");
     nameHeading.textContent = name;
 
     const images = document.createElement("img");
